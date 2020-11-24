@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Hiragino Mincho ProN", "Meiryo";
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.wrapper {
+    height: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+}
+.header-logo {
+    width: 180px;
+    object-fit: cover;
+    padding: 40px 0;
+}
+.header-logo:hover {
+    cursor: default;
+}
+.menu-icon {
+  width: 40px;
+  color: black;
+  font-size: 70px ;
+  padding: 45px 90px 0 45px;
+  display: none  !important;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 128px;
+}
+nav a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-left: 100px;
+}
+nav a:hover {
+    cursor: pointer;
+}
+.about-wrapper {
+    padding-top: 160px;
+}
+.heading {
+    text-align: center;
+    padding-bottom: 80px;
+}
+.heading h1 {
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding: 6px 50px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.about-content {
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-img {
+    width: 535px;
+    object-fit: cover;
+    height: 540px;
+    border: 1px solid #CCCCCC;
+}
+.sentence {
+    width: 535px;
+}
+.about-img:hover {
+    cursor: pointer;
+}
+.about-content h2 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: left;
+}
+.about-content p {
+    letter-spacing: 5px;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2;
+    text-align: justify;
+    display: inline-block;
+}
+.sentence-content {
+    display: flex;
+    justify-content: space-between;
+}
+.sumaho {
+    display: none !important;
+}
+.bold p {
+    font-weight: bold;
+}
+footer {
+    height: 100px;
+    background-color: black;
+    width: 100%;
+    margin-top: auto;
+}
+.footer-logo {
+    width: 85px;
+    object-fit: cover;
+    padding: 40px 0;
+    padding: 22px 0 8px 0;
+}
+.footer-center {
+    text-align: center;
+}
+

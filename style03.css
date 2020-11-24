@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Mincho ProN", "Meiryo";
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+header {
+    height: 800px;
+    width: 100%;
+    background-image: url(images03/fog-3622519_1920-02.jpg);
+    background-size: cover;
+    
+}
+.header-left {
+    float: left;
+    padding-left: 35px;
+}
+.header-left img {
+    width: 230px;
+    margin-top: 105px;
+}
+.header-left img:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+.header-right {
+    float: right;
+    padding-right: 35px;
+}
+.header-right a {
+    margin-top: 130px;
+    padding-left: 70px;
+    color: #5f5d60;
+    letter-spacing: 5px;
+    display: block;
+    float: left;
+    transition: all 0.4s;
+    font-size: 14px;
+}
+.header-right a:hover {
+    color: dimgray; 
+    opacity: 0.2;
+}
+
+.header-txt {
+    font-size: 14px;
+    color: white;
+    letter-spacing: 3px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 340px;
+    
+}
+.yajirushi img {
+    width: 60px;
+    margin-top: 20px;
+
+}
+.yajirushi {
+    text-align: center;
+    
+}
+.message-wrapper {
+    height: 550px;
+    border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+    background-color: #F5F3EF;
+}
+.message-wrapper p {
+  width: 80%;  
+    margin-top: 20px;
+  font-size: 12px;
+  color: #5f5d60;
+    letter-spacing: 3px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.content-wrapper {
+  height: 685px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 120px;
+  
+  color: #5f5d60;
+    letter-spacing: 10px;
+}
+
+.heading h2 {
+  font-weight: normal;
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-left: 13px;
+}
+
+.content {
+  float: left;
+  width: 25%;
+}
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #5f5d60;
+  letter-spacing: 3px;
+  line-height: 28px;
+}
+.txt-contents-04 {
+  width: 80%;
+  display: inline-block;
+  margin-top: 13px;
+  font-size: 12px;
+  color: #5f5d60;
+  letter-spacing: 3px;
+  line-height: 28px;
+}
+.content-wrapper img {
+    width: 200px;
+}
+.content-icon p {
+    letter-spacing: 5px;
+    color: #5f5d60;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.mizuse {
+    margin-top: 16px;
+}
+footer {
+    width: 1265px;
+    height: 150px;
+    padding-bottom: 60px;
+    padding-left: 168px;
+    margin: 0 auto;
+}
+.border {
+    border-top: 1px solid #E0E0E0;
+    width: 1104px;
+}
+.footer-left a {
+    margin-top: 127px;
+    padding-right: 70px;
+    color: #5f5d60;
+    letter-spacing: 5px;
+    display: block;
+    float: left;
+    transition: all 0.4s;
+    font-size: 14px;
+}
+.footer-left a:hover {
+    color: dimgray; 
+    opacity: 0.2;
+}
+.copy {
+    color: #5f5d60;
+    font-size: 12px;
+    letter-spacing: 3px;
+    float: right;
+    padding-top: 129px;
+    padding-right: 168px;
+}

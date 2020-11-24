@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Mincho ProN", "Meiryo";
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.side {
+    width: 115px;
+    margin-right:72px;
+    position: fixed;
+    top: 0;
+    text-align: center;
+}
+.main {
+    width: 87%;
+    margin-left: 16%;/* .sideの幅+マージン */
+    position: relative;
+}
+.logo-box > .title-top {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    left: 315px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 80px;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+.logo-box > .title-under {
+    position: absolute;
+    top: 295px;
+    width: 100%;
+    left: 315px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 80px;
+    font-size: 75px;
+    letter-spacing: 15px;
+}
+.logo-box > .logo-img {
+    position: absolute;
+    top: 225px;
+    left: 95px;
+    width: 180px;
+    padding: 30px 0 12px 0;
+    opacity: 0.8;
+}
+.logo-side {
+    width: 100%;
+    padding: 30px 0 15px 0;
+}
+.menu-img {
+    width: 80%;
+    padding-top: 15px;
+}
+.side p {
+    margin-top: 0;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+.border-top {
+    border-bottom: 3px solid #b4b4b4;
+    padding-top: 5px;
+}
+.border {
+    border-bottom: 1px solid #b4b4b4;
+    padding-top: 5px;
+}
+.main-img {
+    height: 765px;
+    object-fit: cover;
+    width: 100%;
+}
+.logo-img {
+    top: 50px;
+    left:30px;
+    width: 100%;
+}
+.heading-tokucho {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 80px;
+    letter-spacing: 5px;
+}
+.archive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+/*.img-box {
+  position: relative;
+}*/
+
+/*.img-box > p {
+  position: absolute;
+  top: 150px;
+  width: 100%; 
+  text-align: center;
+}*/
+.archive section {
+    width: 50%;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.archive h3 {
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding: 25px 0 15px 0;
+}
+.archive p {
+    color: dimgrey;
+    letter-spacing: 4px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+.archive a {
+    padding: 20px 122px;/*pに自動合わせはあるのか調べる*/
+    background-color: #8CC63F;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 5px;
+}
+.archive img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding-top: 50px;
+} 
+.facility-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px 100px 0 100px;
+}
+.heading-shisetsu {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.facility {
+    width: 40%;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.facility img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+} 
+.facility h3 {
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding: 25px 0 15px 0;
+}
+.facility ul {
+    color: dimgrey;
+    letter-spacing: 4px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: justify;
+    padding-bottom: 40px;
+    width: 100%;
+    display: inline-block;
+}
+.news {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.heading-oshirase {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.news-title {
+    padding: 5px 50px;
+    margin: 0 150px 30px 0;
+    background-color: lightgray; 
+}
+.news-title h3 {
+    line-height: 5px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: white;
+}
+.news-sentence p {
+    color: dimgrey;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+.claim-wrapper {
+    height: 350px;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 50px 0;
+    letter-spacing: 5px;
+    color: white;
+    margin-top: 100px;
+}
+.heading-syosai {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-top: 150px;
+}
+.claimp01{
+    font-size: 14px;
+}
+.claimp02 {
+    line-height: 20px;
+    font-size: 18px;
+}
+.claimp03 {
+    font-size: 18px;
+    padding-top: 20px;
+}
+.claimp04 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0;
+}
+.claim {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 60px;
+}
+.claim a {
+    padding: 30px 80px;
+    color: cadetblue;
+    background-color: white;
+    font-weight: bold;
+    font-size: 24px;
+    filter: drop-shadow(5px 5px 2px rgba(0,0,0,0.3));
+}
+footer {
+    padding-top: 150px;
+}
+footer p {
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: dimgrey;
+    line-height: 50px;
+}
+
+/* 2カラムサイトにする 
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main, .side {
+    padding: 20px;
+}
+
+.main {
+    background: pink;
+    width: 80%;
+}
+
+.side {
+    background: skyblue;
+    width: 20%;
+}
+
+.side p, ul {
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+
+2カラムコンテンツにする 
+
+.archive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.archive div {
+    margin-bottom: 3rem;
+    padding: 3rem;
+    width: 35%;
+    background-color: #f0f0f0;
+}
+
+.archive img {
+    display: block;
+    margin-bottom: 3rem;
+    width: 100%;
+    height: auto;
+} */

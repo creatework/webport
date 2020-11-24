@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Hiragino Mincho ProN", "Meiryo";
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper {
+    height: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+}
+.header-logo {
+    width: 180px;
+    object-fit: cover;
+    padding: 40px 0;
+}
+.header-logo:hover {
+    cursor: default;
+}
+.menu-icon {
+  width: 40px;
+  color: black;
+  font-size: 70px ;
+  padding: 45px 90px 0 45px;
+  display: none  !important;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 128px;
+}
+nav a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-left: 100px;
+}
+nav a:hover {
+    cursor: pointer;
+}
+.top-img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.portfolio-wrapper {
+    text-align: center;
+    padding-top: 160px;
+}
+.heading {
+    padding-bottom: 80px;
+}
+.heading h1 {
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding: 6px 50px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.portfolio {
+    padding-bottom: 160px;
+}
+.portfolio img {
+    width: 100%;
+    object-fit: cover;
+    height: 650px;/*レスポンシブで幅の変わるheightは？*/
+    border: 1px solid #CCCCCC;
+}
+.portfolio img:hover {
+    cursor: pointer;
+}
+.portfolio h2, p {
+    text-align: left;
+    display: inline-block;
+    width: 100%; 
+}
+.portfolio h2 {
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.portfolio p {
+    letter-spacing: 5px;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2;
+    text-align: justify;
+}
+footer {
+    height: 100px;
+    background-color: black;
+    width: 100%;
+    margin-top: auto;
+}
+.footer-logo {
+    width: 85px;
+    object-fit: cover;
+    padding: 40px 0;
+    padding: 22px 0 8px 0;
+}
+.footer-center {
+    text-align: center;
+}

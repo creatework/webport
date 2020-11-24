@@ -1,0 +1,77 @@
+/*タブレット*/
+@media(max-width:1000px) {
+.container {
+    width: 90%;/* 解像度1000以下の場合widthを上書き */
+}
+header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+} 
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.about-content {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.heading {
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+.about-img {
+    width: 100%;
+    height: 300px;
+}
+.sentence {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sentence h2 {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.sentence p {
+    margin: 0 auto;
+}
+footer {
+    height: 70px;
+    background-color: black;
+    width: 100%;
+}
+.footer-center {
+    text-align: center;
+}
+.footer-center img {
+    width: 40px;
+    padding: 15px 0 5px 0;
+}
+}
+
+/*スマホ*/
+@media(max-width:670px) {
+    .container {
+        width: 90%;
+    }
+    nav {
+        display: none; 
+    }
+    .menu-icon {
+        display: block  !important;
+    }
+    .sentence-content {
+    display: none !important;
+}
+    .sumaho {
+        display: block  !important;
+    }
+    .bold {
+        font-weight: bold;
+        padding-top: 20px;
+    }
+}

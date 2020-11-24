@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Mincho ProN", "Meiryo";
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+    width: 1170px;
+   
+    margin: 0 auto;
+}
+header {
+    height: 300px;   
+}
+.heading {
+  color: #5f5d60;
+    letter-spacing: 10px;
+}
+
+.heading h2 {
+  font-weight: normal;
+    font-size: 18px;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-left: 13px;
+}
+.header-left {
+    float: left;
+    padding-left: 35px;
+}
+.header-left img {
+    width: 230px;
+    margin-top: 105px;
+}
+.header-left img:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+.header-right {
+    float: right;
+    padding-right: 35px;
+    
+}
+.header-right a {
+    margin-top: 130px;
+    padding-left: 70px;
+    color: #5f5d60;
+    letter-spacing: 5px;
+    display: block;
+    float: left;
+    transition: all 0.4s;
+    font-size: 14px;
+}
+.header-right a:hover {
+    color: dimgray; 
+    opacity: 0.2;
+}
+.content-wrapper {
+    height: 1550px; 
+}
+.content-wrapper img {
+    width: 510px;
+    height: 330px;
+    object-fit: cover;
+}
+.content-wrapper img:hover {
+    opacity: 0.7;
+}
+.content-wrapper p {
+    padding-top: 10px;
+    font-size: 12px;
+    color: #5f5d60;
+    letter-spacing: 3px;
+    
+}
+.content {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.content-icon {
+    position: relative;
+}
+.content-icon p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    
+}
+footer {
+    width: 1265px;
+    height: 150px;
+    padding-bottom: 60px;
+    padding-left: 168px;
+    margin: 0 auto;
+}
+.border {
+    border-top: 1px solid #E0E0E0;
+    width: 1104px;
+}
+.footer-left a {
+    
+    margin-top: 127px;
+    padding-right: 70px;
+    color: #5f5d60;
+    letter-spacing: 5px;
+    display: block;
+    float: left;
+    transition: all 0.4s;
+    font-size: 14px;
+}
+.footer-left a:hover {
+    color: dimgray; 
+    opacity: 0.2;
+}
+.copy {
+    color: #5f5d60;
+    font-size: 12px;
+    letter-spacing: 3px;
+    float: right;
+    padding-top: 129px;
+    padding-right: 168px;
+}
